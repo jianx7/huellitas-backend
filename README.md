@@ -18,7 +18,6 @@ API REST para la Plataforma Digital de Adopción Responsable y Bienestar Animal 
 
 1. Clona el repositorio
    git clone https://github.com/jianx7/huellitas-backend.git
-   git clone 
    cd huellitas-backend
 
 2. Instala dependencias
