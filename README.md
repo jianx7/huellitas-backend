@@ -26,6 +26,7 @@ API REST para la Plataforma Digital de Adopción Responsable y Bienestar Animal 
    npm install
 
 3. Configura variables de entorno
+   cp .env.example .env
    Edita .env con tus credenciales
 
 4. Inicializa la base de datos
@@ -38,7 +39,7 @@ El servidor estará en http://localhost:3000
 
 ## Variables de entorno
 
-Crea un archivo .env basado en .env.example con los siguientes valores:
+Crea un archivo .env con los siguientes valores:
 ```
 DATABASE_URL=postgresql://usuario:contraseña@localhost:5432/huellitas_db
 JWT_SECRET=cambia_esto_por_algo_seguro
@@ -47,7 +48,6 @@ CLOUDINARY_API_KEY=tu_api_key
 CLOUDINARY_API_SECRET=tu_api_secret
 PORT=3000
 ```
-
 
 ## Equipo backend
 
